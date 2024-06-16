@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .name{
+            width: 350px;
+            height: 20px;
+        }
+        .submit{
+            border: 1px solid;
+            width:350px;
+            padding-left: 0px;
+            padding-top: 10px;
+            padding-bottom: 2px;
+           
+        }
+        .cancel{
+            background-color: red;
+            color: white;
+            border-radius:4px;
+            height: 30px;
+
+        }
+        a{
+            color: #000;
+            float:right;
+        }
+        img{
+           
+            width:"200px";
+            border-radius: 50%;
+            margin-left:80px;
+            
+        }
+        .form{
+            position: absolute;
+            top: 20%;
+           left: 35%;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="form">
+     <img src="images.jpeg"><br><br>
+     <label for="username" ><b>Username</b></label><br>
+     <input type="text" id="username" placeholder="Enter Username" class="name">
+     <br><br>
+     <label for="password" ><b>Password</b></label><br>
+     <input type="password" id="password" placeholder="Enter password" class="name">
+     <br><br>
+     <input type="submit" value="Login" style="background-color: green; color: white; height: 30px; width: 360px; border: none;" class="name">
+     <br><br>
+     <input type="checkbox" id="me">
+     <label for="me">Remember me</label><br><br>
+     <div class="submit">
+        <input type="button" value="Cancel" class="cancel">
+        <a href="">Forget password?</a>
+     </div> 
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+

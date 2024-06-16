@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        table,th,td{
+        background-color:rgb(78, 232, 181);
+        border-radius: 20px ;
+        border: 1px solid black;
+
+        }
+       th{
+         text-align: center;
+         width: 300px;
+        }
+        td{
+            width: 300px;
+        }
+        #o{
+            height: 30px;
+            width:40px;
+            border-radius: 10px;
+           
+        }
+
+        #t{
+            height: 30px;
+            width:40px;
+            border-radius: 10px;
+           
+        }
+        #f{
+            height: 30px;
+            width:40px;
+            border-radius: 10px;
+           
+        }
+        #fi{
+            height: 30px;
+            width:40px;
+            
+        }
+        #e{
+            height: 30px;
+            width:40px;
+            
+        }
+        #th{
+            height: 30px;
+            width:40px;
+            border-radius: 20px;
+           
+            
+        }
+        #s{
+            height: 30px;
+            width:40px;
+            border-radius: 20px;
+            
+        }
+        #se{
+            height: 30px;
+          width: 50px;
+         
+        border-radius: 50%;
+        }
+    #n{
+        height: 30px;
+            width:40px;
+            border-radius: 10px;
+           
+    }
+        
+ .container {
+    display: grid;
+   
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr; 
+   
+    column-gap :0;
+  row-gap: 10px;
+   
+ }
+
+ .item {
+    
+    padding: 20px;
+    background-color: white;
+   border: 2px solid rgb(30, 128, 30);
+  }
+     
+    </style>
+</head>
+<body>
+    <div class="con">
+    <table>
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Jill</td>
+            <td>Smith</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>94</td>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>80</td>
+        </tr>
+    </table>
+</div><br><br>
+<div class="container">
+  <div class="item" id="o"></div>
+  <div class="item" id="t"></div>
+  <div class="item" id="th"></div>
+  <div class="item" id="f"></div>
+  <div class="item" id="fi"></div>
+  <div class="item" id="s"></div>
+  <div class="item" id="se"></div>
+  <div class="item" id="e"></div>
+  <div class="item" id="n"></div>
+</div>
+</body>
+</html>
